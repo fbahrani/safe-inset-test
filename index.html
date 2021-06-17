@@ -10,14 +10,9 @@
     <div>
         <div
           style="
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 1000px;
-            height: 1000px;
-            z-index: 99999999;
-            background-color: red;
-          
+            position: absolute;
+            height: calc(100% - env(safe-area-inset-bottom));
+            background-color: red;          
         ">
           hiiii
         </div>
